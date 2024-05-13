@@ -4,8 +4,8 @@ Generative Adversarial Networks (GANs) are a powerful class of neural networks t
 - The Generator attempts to fool the Discriminator, which is tasked with accurately distinguishing between produced and genuine data, by producing random noise samples.
 - Realistic, high-quality samples are produced as a result of this competitive interaction, which drives both networks toward advancement.
 - GANs are proving to be highly versatile artificial intelligence tools, as evidenced by their extensive use in image synthesis, style transfer, and text-to-image synthesis.
-# GAN Architecture
-### ![Architecture](Architecture.png)
+# GAN Architecture - Fashion Mnist Dataset
+### ![Architecture](./Architecture.jpg)
 
 # About Dataset
 ## Context
