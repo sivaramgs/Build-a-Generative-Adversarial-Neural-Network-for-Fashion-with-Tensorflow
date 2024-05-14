@@ -3,6 +3,7 @@ To build a Generative Adversarial Networks (GANs) made up of two neural networks
 - The Generator attempts to fool the Discriminator, which is tasked with accurately distinguishing between produced and genuine fashion data, by producing random noise samples.
 - Realistic, high-quality fashion samples are produced as a result of this competitive interaction, which drives both networks toward advancement.
 
+
 # Project Architecture - Fashion Mnist Dataset
 ### ![Architecture](assets/Architecture.jpg)
 
@@ -60,5 +61,11 @@ The creation of a custom subclassed model, FashionGAN, combines both the generat
 
 ## Reviewing Performance
 visualizing the progress became essential, the below image is a display of discriminator and generator losses over the 100 epochs.
-### ![Architecture](assets/loss.png)
+### ![loss](assets/loss.png)
 
+## Fake Fashion Images
+The images folder contains the GAN generated images for the 100 epochs. Below is the output images for the last 16 epochs
+### ![fake_images_100_epochs](assets/output_fake_images.png)
+
+
+### ![Architecture](assets/loss.png)
