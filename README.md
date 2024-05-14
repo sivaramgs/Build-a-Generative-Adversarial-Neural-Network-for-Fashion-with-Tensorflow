@@ -44,7 +44,7 @@ The generator transforms random noise into realistic fashion images through seri
 
 
 ## Built the Discriminator
-The discriminator distinguishes the generated fake fashion images through a series of convolutional layers and flattening the dense layer.
+The discriminator distinguishes the generated fake fashion images from real images through a series of convolutional layers and flattening the dense layer.
 ### ![discrimiator_summary](assets/discriminator_summary.png)
 
 
