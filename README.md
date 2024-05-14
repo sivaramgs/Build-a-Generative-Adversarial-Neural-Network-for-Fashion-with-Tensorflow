@@ -1,14 +1,9 @@
-# Generative Adversarial Networks (GANs)
-Generative Adversarial Networks (GANs) are a powerful class of neural networks that are used for an unsupervised learning. GANs are made up of two neural networks, a - discriminator and a generator. They use adversarial training to produce artificial data that is identical to actual data.
+# Project
+To build a Generative Adversarial Networks (GANs) made up of two neural networks, a - discriminator and a generator for an unsupervised learning of Fashion Mnist dataset. They use adversarial training to produce artificial data that is identical to actual data.
+- The Generator attempts to fool the Discriminator, which is tasked with accurately distinguishing between produced and genuine fashion data, by producing random noise samples.
+- Realistic, high-quality fashion samples are produced as a result of this competitive interaction, which drives both networks toward advancement.
 
-- The Generator attempts to fool the Discriminator, which is tasked with accurately distinguishing between produced and genuine data, by producing random noise samples.
-- Realistic, high-quality samples are produced as a result of this competitive interaction, which drives both networks toward advancement.
-- GANs are proving to be highly versatile artificial intelligence tools, as evidenced by their extensive use in image synthesis, style transfer, and text-to-image synthesis.
-
-# Example
-### ![Architecture](assets/GAN_example.png)
-
-# Architecture - Fashion Mnist Dataset
+# Project Architecture - Fashion Mnist Dataset
 ### ![Architecture](assets/Architecture.jpg)
 
 # About Dataset
