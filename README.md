@@ -31,4 +31,22 @@ Each training and test example is assigned to one of the following labels:
 ### Dataset Sample
 ### ![Architecture](assets/dataset_images.png)
 
+## Preprocessing the Data
+Preprocessing the dataset by Scaling the images and implementing various transformations, including caching, shuffling, batching, and prefetching. It ensures dataset is ready for training.
+### ![Architecture](assets/preprocessing.png)
+
+## Building the Generator
+The generator, designed to transform random noise into realistic fashion images through series of upsampling and convolutional layers.
+### ![Architecture](assets/generator_summary.png)
+
+## Building the Discriminator
+The discriminator, designed to distinguish the generated fake fashion images through a series of convolutional layers and flattening the dense layer.
+### ![Architecture](assets/discriminator_summary.png)
+
+## Training the Model
+The creation of a custom subclassed model, FashionGAN, combines both the generator and discriminator. The training loop involved alternating steps, training the discriminator and generator to achieve a adversarial learning.
+
+## Reviewing Performance
+visualizing the progress became essential, the below image is a display of discriminator and generator losses over the 100 epochs.
+### ![Architecture](assets/loss.png)
 
