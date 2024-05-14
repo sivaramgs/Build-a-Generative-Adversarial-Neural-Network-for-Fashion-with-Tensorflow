@@ -38,20 +38,23 @@ Preprocessing the dataset by Scaling the images and implementing various transfo
 
 
 ## Building the Generator
-The generator, designed to transform random noise into realistic fashion images through series of upsampling and convolutional layers.
+The generator transforms random noise into realistic fashion images through series of upsampling and convolutional layers.
 ### ![generator_summary](assets/generator_summary.png)
 
 
 ## Building the Discriminator
-The discriminator, designed to distinguish the generated fake fashion images through a series of convolutional layers and flattening the dense layer.
+The discriminator distinguishes the generated fake fashion images through a series of convolutional layers and flattening the dense layer.
 ### ![discrimiator_summary](assets/discriminator_summary.png)
 
 
-## Training the Model
+## Training the GAN Model
 The creation of a custom subclassed model, FashionGAN, combines both the generator and discriminator. The training loop involved alternating steps, training the discriminator and generator to achieve a adversarial learning.
+
+### Generator Training through Backpropagation 
 ### ![generator_training](assets/backpropagation_generator.png)
 
 
+### Discriminator Training through Backpropagation 
 ### ![discriminator_training](assets/backpropagation_discriminator.png)
 
 
